@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #ccc;
+}
+
+.tab {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: antiquewhite;
+}
+
+.siteadi {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin-left: 10px;
+    padding-right: 20px;
+    border-right: 2px solid #ccc;
+
+}
+
+input {
+    width: 700px;
+    height: 40px;
+    padding-left: 30px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+input:focus {
+    border: 3px solid #555;
+    outline: none !important;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+.search-form {
+    position: relative;
+}
+
+.search-icon {
+    position: absolute !important;
+    left: 10px;
+    top: 15px;
+}
+
+
+.kisisel {
+    background-color: red;
+    margin-right: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+
+
+}
